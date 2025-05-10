@@ -1,0 +1,38 @@
+# Archivos generados por Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Variables de entorno
+.env
+.env.local
+
+# Archivos de desarrollo / IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs y carpetas de debug
+logs/
+*.log
+.pnpm-debug.log*
+
+# Backup files
+*.bak
+*.tmp
+
+# Si usas bases de datos (MySQL, SQLite, etc.)
+*.sql
+*.db
+/database/config/development/
+
+# Si usas Docker
+docker-compose.override.yml
